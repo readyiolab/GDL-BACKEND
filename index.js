@@ -12,8 +12,8 @@ const isProduction = process.env.NODE_ENV === 'production';
 const allowedOrigins = [
   'http://localhost:5174',
   'http://localhost:3000',
-  'https://freshbind.com',
-  'https://backend.freshbind.com'
+  'https://cedento.com',
+  'https://cendento.com'
 ];
 
 // Middleware

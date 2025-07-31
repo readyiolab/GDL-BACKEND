@@ -1,4 +1,6 @@
 const mysql = require("mysql");
+const { dbHost, dbUser, dbPass, dbName } = require('./dotenvconfg');
+
 
 
 class Database {
